@@ -111,3 +111,37 @@ iframe {
   height: auto;
   margin-left: 0.5em;
 }
+
+.box1 h1 {
+  background-color: rgb(157, 161, 173);
+  width: 80%;
+  margin: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+.box1 {
+  background-color: rgb(157, 161, 173);
+  width: 80%;
+  margin: 20px;
+  padding-right: 20px;
+  font-size: medium;
+  text-align: center;
+}
+
+button {
+  display: inline;
+
+  font-weight: bold;
+  background-color: #3f6bca;
+}
+
+.span3 {
+  color: white;
+}
+
+.h1out {
+  width: 100%;
+
+  text-align: center;
+}
