@@ -1,0 +1,113 @@
+body {
+  font-family: Poppins, "Helvetica Neue", sans-serif;
+  background-image: url("../img/sfondo.png");
+  font-size: 1.4rem;
+  line-height: 1.5;
+  padding: 15px;
+  background-position: center;
+}
+
+header {
+  background-color: #008899;
+  /* text-align: center; */
+  margin: 25px;
+  width: 85%;
+  background-image: linear-gradient(border-top blue, #0099cc);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.div1 {
+  font-size: medium;
+  color: white;
+  list-style-type: none;
+  text-align: center;
+}
+
+img {
+  width: 80%;
+  margin: 20px;
+}
+
+.main1 {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: white;
+  width: 80%;
+  margin: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+h1 {
+  text-align: left;
+  font-size: larger;
+  padding: 0.5em;
+}
+
+.span1 {
+  color: #a1a7a8;
+  font-size: small;
+  text-align: left;
+  font-weight: bold;
+}
+
+.div2 {
+  font-size: medium;
+  padding: 10px;
+  text-align: left;
+}
+.span2 {
+  color: purple;
+  font-weight: bold;
+}
+p {
+  margin: 1em;
+}
+
+ul {
+  list-style: inside;
+  margin-left: 1em;
+}
+
+table {
+  font-size: 15px;
+  width: 100%;
+  margin-left: 0.7em;
+
+  text-transform: uppercase;
+  margin-bottom: 2em;
+}
+
+caption {
+  font-weight: bold;
+  font-style: italic;
+}
+
+tr {
+  background-color: #3f6bca;
+  color: #ffffff;
+}
+
+th,
+td {
+  padding: 12px, 15px;
+  vertical-align: bottom;
+}
+
+.section3 {
+  font-size: medium;
+  padding: 10px;
+  text-align: left;
+  margin-top: -2em;
+}
+
+iframe {
+  width: 100%;
+  border-radius: 15px;
+
+  display: block;
+  max-width: 250px;
+  max-height: 200px;
+  width: auto;
+  height: auto;
+  margin-left: 0.5em;
+}
