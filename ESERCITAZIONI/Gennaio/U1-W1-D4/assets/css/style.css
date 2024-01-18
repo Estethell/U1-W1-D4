@@ -10,10 +10,17 @@ body {
 header {
   background-color: #008899;
   /* text-align: center; */
-  margin: 25px;
-  width: 85%;
+
+  margin-block: 25px;
+  width: 100%;
   background-image: linear-gradient(border-top blue, #0099cc);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding-bottom: 0.5em;
+}
+
+.textwhite {
+  font-weight: bold;
+  padding-bottom: 0.5em;
 }
 
 .div1 {
@@ -31,9 +38,9 @@ img {
 .main1 {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   background-color: white;
-  width: 80%;
-  margin: 20px;
-  padding-right: 20px;
+  width: 100%;
+  margin: auto;
+
   text-align: center;
 }
 
@@ -68,10 +75,14 @@ ul {
   margin-left: 1em;
 }
 
+.sectiontable {
+  padding-inline: 0.7em;
+}
+
 table {
   font-size: 15px;
   width: 100%;
-  margin-left: 0.7em;
+  margin-left: 0em;
 
   text-transform: uppercase;
   margin-bottom: 2em;
@@ -89,10 +100,17 @@ tr {
 
 th,
 td {
-  padding: 12px, 15px;
+  padding-block: 6px;
+  padding-inline: 8px;
   vertical-align: bottom;
 }
+.lightgrey {
+  background-color: lightgrey;
+}
 
+.darkgrey {
+  background-color: darkgrey;
+}
 .section3 {
   font-size: medium;
   padding: 10px;
